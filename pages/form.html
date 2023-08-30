@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../assets/style.css">
+	<link rel="icon" href="../assets/icon.png" type="image/png">
+	<title>Form HTML</title>
+</head>
+<body>
+	<div class="wadah">
+		<div class="judul_materi">
+			<h2>Form Pendaftaran Studi Independen 2023 - PT Arkatama Multi Solusindo</h2><br>
+		</div>
+		<div class="materi">
+			<form action="proses.html" enctype="multipart/form-data">
+				<label for="nama">Nama</label><br>
+				<input type="text" name="nama" id="nama" required placeholder="Nama lengkap"><br><br>
+
+				<label for="email">Email</label><br>
+				<input type="email" name="email" id="email" required placeholder="Email aktif"><br><br>
+
+				<label for="hp">No HP</label><br>
+				<input type="tel" name="hp" id="hp" required placeholder="No HP aktif"><br><br>
+
+				<label for="jenis_kelamin">Jenis Kelamin</label><br>
+				<input type="radio" name="jenis_kelamin" id="lk">
+				<label for="lk">Laki-laki</label><br>
+
+				<input type="radio" name="jenis_kelamin" id="pr">
+				<label for="pr">Perempuan</label><br><br>
+
+				<label for="prodi">Prodi</label><br>
+				<select id="prodi" name="prodi">
+					<option value="Teknik Informatika">Teknik Informatika</option>
+					<option value="Sistem Informasi">Sistem Informasi</option>
+					<option value="Ilmu Komputer">Ilmu Komputer</option>
+				</select><br><br>
+
+				<label for="checkbox">Hobi</label><br>
+				<input type="checkbox" name="membaca" id="membaca">
+				<label for="membaca">Membaca</label><br>
+
+				<input type="checkbox" name="menulis" id="menulis">
+				<label for="menulis">Menulis</label><br>
+
+				<input type="checkbox" name="menyanyi" id="menyanyi">
+				<label for="menyanyi">Menyanyi</label><br>
+
+				<input type="checkbox" name="olahraga" id="olahraga">
+				<label for="olahraga">Olahraga</label><br><br>
+
+				<label for="alamat">Alamat</label><br>
+				<textarea name="alamat" id="alamat" rows="4" cols="30" required placeholder="Alamat lenkgap"></textarea><br><br>
+
+				<label for="foto">Foto Diri</label><br>
+				<input type="file" name="foto" id="foto" accept="image/*" required><br>
+
+				<label for="daftar"></label><br>
+				<input type="submit" name="submit" value="Daftar"><br><br><br>
+			</form> 
+			<a href="../index.html" class="hyperlink-button">Kembali</a>
+		</div>
+	</div>
+</body>
+</html>
