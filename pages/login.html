@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../assets/style.css">
+	<link rel="icon" href="../assets/icon.png" type="image/png">
+	<title>Form Login</title>
+</head>
+<body>
+	<div class="wadah_login">
+		<div class="judul_materi">
+			<h1>Login</h1>
+			<img src="../assets/user.png" height="200px">
+		</div><br>
+		<div class="materi">
+			<form accept="">
+				<label for="username">Username :</label><br>
+				<input type="text" name="username" id="username" placeholder="Masukkan username" required><br>
+
+				<label for="password">Password :</label><br>
+				<input type="password" name="password" id="password" placeholder="Masukkan password" required>
+				<p id="randomNumber"></p>
+			    <script>
+			        // Membangkitkan angka acak dengan 4 digit
+			        const randomNum = Math.floor(1000 + Math.random() * 9000);
+
+			        // Mendapatkan referensi ke elemen paragraf
+			        const randomNumberParagraph = document.getElementById('randomNumber');
+
+			        // Menampilkan angka acak pada elemen paragraf
+			        randomNumberParagraph.textContent = `Random Number: ${randomNum}`;
+			    </script>
+
+			    <label for="captcha">Captcha :</label>
+			    <input type="number" name="captcha" id="captcha" placeholder="Masukkan kode captcha" required><br>
+
+			    <button type="submit">Login</button><br><br>
+
+			    <label for="remember">Remember me</label>
+			    <input type="checkbox" name="remember" id="remember"><br><br>
+			</form>
+
+			<iframe width="103%" height="415" src="https://www.youtube.com/embed/ibJ0lpj1a0E" frameborder="0" allowfullscreen></iframe><br><br><br>
+			<a href="../index.html" class="hyperlink-button">Kembali</a>
+		</div>
+	</div>
+</body>
+</html>
