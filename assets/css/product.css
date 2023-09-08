@@ -4,7 +4,7 @@ body {
 }
 
 .bg {
-    background-image: url('../assets/bg.jpg');
+    background-image: url('../gambar/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
