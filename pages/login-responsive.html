@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../assets/css/login-responsive.css">
+	<link rel="icon" href="../assets/gambar/icon.png" type="image/png">
+	<title>Login Responsive</title>
+</head>
+<body>
+<header>
+    <a href="" class="logo">Ali Khatami</a>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Menu</label>
+
+    <nav class="navbar">
+        <ul>    
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="">HTML</a>
+                <ul>
+                    <li><a href="heading.html">Heading</a></li>
+                    <li><a href="paragraf.html">Paragraph</a></li>
+                    <li><a href="text_formatting.html">Text Formatting</a></li>
+                    <li><a href="">List</a>
+                        <ul>
+                            <li><a href="ordered_list.html">Ordered List</a></li>
+                            <li><a href="unordered_list.html">Unordered List</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="table.html">Table, Image, dan Hyperlink</a></li>
+                    <li><a href="form.html">HTML Form</a></li>
+                </ul>
+            </li>
+            <li><a href="" class="active">CSS</a>
+                <ul>
+                    <li><a href="pages/login.html">Form Login</a></li>
+                    <li><a href="pages/product.html">Product</a></li>
+                    <li><a href="pages/login-responsive.html">Login Responsive</a></li>
+                    <li><a href="pages/product-responsive.html">Product Responsive</a></li>
+                </ul>
+            </li>
+            <li><a href="">Javascript</a>
+                <ul>
+                    <li><a href="jsdasar.html">Fundamental Javascript</a></li>
+                    <li><a href="landing.html">Landing HTML</a></li>
+                    <li><a href="landingdom.html">Landing HTML dengan DOM</a></li>
+                    <li><a href="productarray.html">Menyimpan Data Produk Kedalam Object/Array</a></li>
+                    <li><a href="productapi.html">Product dengan API</a></li>
+                </ul>
+            </li>
+        </ul>	
+    </nav>
+</header><br><br><br>
+	<div class="wadah_login">
+		<div class="judul_materi">
+			<h1>Login</h1>
+			<img src="../assets/gambar/user.png" height="200px">
+		</div><br>
+		<div class="materi">
+			<form accept="">
+				<label for="username">Username :</label><br>
+				<input type="text" name="username" id="username" placeholder="Masukkan username" required><br>
+
+				<label for="password">Password :</label><br>
+				<input type="password" name="password" id="password" placeholder="Masukkan password" required>
+				<p id="randomNumber"></p>
+			    <script>
+			        // Membangkitkan angka acak dengan 4 digit
+			        const randomNum = Math.floor(1000 + Math.random() * 9000);
+
+			        // Mendapatkan referensi ke elemen paragraf
+			        const randomNumberParagraph = document.getElementById('randomNumber');
+
+			        // Menampilkan angka acak pada elemen paragraf
+			        randomNumberParagraph.textContent = `Random Number: ${randomNum}`;
+			    </script>
+
+			    <label for="captcha">Captcha :</label>
+			    <input type="number" name="captcha" id="captcha" placeholder="Masukkan kode captcha" required><br>
+
+			    <button type="submit">Login</button><br><br><br>
+			</form>
+
+			<iframe width="100%" height="415" src="https://www.youtube.com/embed/ibJ0lpj1a0E" frameborder="0" allowfullscreen></iframe><br><br><br>
+			<a href="../index.html" class="hyperlink-button">Kembali</a>
+		</div>
+	</div>
+	<footer>
+		<p>© 2023 Ali Khatami</p><br>
+		<div class="sosmed">
+			<div class="sosmed1"><a href="https://www.facebook.com/otaku.art.35" target="_blank"><img src="../assets/gambar/facebook.png" height="40px"></a></div>
+			<div class="sosmed1"><a href="https://www.instagram.com/servant_arthur07/" target="_blank"><img src="../assets/gambar/instagram.png" height="40px"></a></div>
+			<div class="sosmed1"><a href="https://www.youtube.com/@alikhatami3910" target="_blank"><img src="../assets/gambar/youtube.png" height="40px"></a></div>
+			<div class="sosmed1"><a href="https://www.tiktok.com/@servant_arthur07" target="_blank"><img src="../assets/gambar/tiktok.png" height="40px"></a></div>
+			<div class="sosmed1"><a href="https://github.com/servant26" target="_blank"><img src="../assets/gambar/github.png" height="40px"></a></div>
+		</div>
+	</footer>
+</body>
+</html>
