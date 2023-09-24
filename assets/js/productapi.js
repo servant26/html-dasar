@@ -16,7 +16,7 @@ function fetchData() {
                     <img src="${gameList[i].gambar}" alt="${gameList[i].nama_game}">
                     <h2>${gameList[i].nama_game}</h2>
                     <p>${gameList[i].deskripsi}</p>
-                    <a href="${gameList[i].link}" target="_blank" class="more">Baca Selengkapnya...</a><br><br>
+                    <a href="${gameList[i].link}" target="_blank" class="more">More...</a><br><br>
                     `;
                     carousel.appendChild(slide);
                 }

@@ -69,6 +69,9 @@ a {
 .isi_materi{
     padding: 50px;
     text-align: justify;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 4%;
 }
 
 table{
@@ -96,7 +99,7 @@ table,th,td{
     text-align: center;
     overflow: hidden;
     position: relative;
-    max-width: 100%;
+    max-width: 200%;
 }
 
 .carousel {
@@ -171,3 +174,204 @@ p {
     background-color: #1C21CB;
 }
 
+
+@media(max-width:480px){
+    .bg {
+        margin-bottom: 15%;
+    }
+
+    .isibg {
+        color: white;
+        font-size: 20px;
+        padding-top: 120px;
+        padding-left: 60px;
+        padding-right: 20px;
+        mix-blend-mode: screen;
+    }
+
+    .deskripsi{
+        margin-top: -20px;
+        font-size: 12px;
+        padding-right: 20px;
+    }
+
+    .isi_materi{
+        font-size: 12px;
+    }
+
+    .hyperlink-button {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #144B9E;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-size: 12px;
+    }
+
+    .tombol{
+        display: flex;
+        margin-top: 2%;
+    }
+
+    .more {
+        display: inline-block;
+        padding: 8px 20px;
+        background-color: #144B9E;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .carousel {
+        margin-left: 160%;;
+        display: flex;
+        width: 260%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .footer{
+        font-size: 12px;
+        padding-left: 25px;
+    }
+}
+
+@media(min-width:481px) and (max-width:768px){
+    .bg {
+        margin-bottom: 1%;
+    }
+
+    .isibg {
+        color: white;
+        font-size: 50px;
+        padding-top: 120px;
+        padding-left: 60px;
+        padding-right: 20px;
+        mix-blend-mode: screen;
+    }
+
+    .deskripsi{
+        margin-top: -50px;
+        font-size: 25px;
+        padding-right: 20px;
+    }
+
+    .isi_materi{
+        font-size: 18px;
+    }
+
+    .hyperlink-button {
+        display: inline-block;
+        padding: 14px 56px;
+        background-color: #144B9E;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-size: 20px;
+    }
+
+    .tombol{
+        display: flex;
+        margin-top: 2%;
+    }
+
+    .more {
+        display: inline-block;
+        padding: 10px 30px;
+        background-color: #144B9E;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .carousel {
+        margin-left: 160%;;
+        display: flex;
+        width: 260%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .footer{
+        font-size: 16px;
+        padding-left: 25px;
+    }
+}
+
+@media(min-width:769px) and (max-width:1023px){
+    .bg {
+        margin-bottom: 4%;
+    }
+
+    .isibg {
+        color: white;
+        font-size: 50px;
+        padding-top: 250px;
+        padding-left: 60px;
+        padding-right: 20px;
+        mix-blend-mode: screen;
+    }
+
+    .deskripsi{
+        margin-top: -50px;
+        font-size: 25px;
+        padding-right: 20px;
+    }
+
+    .isi_materi{
+        font-size: 18px;
+    }
+
+    .hyperlink-button {
+        display: inline-block;
+        padding: 14px 56px;
+        background-color: #144B9E;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-size: 20px;
+    }
+
+    .tombol{
+        display: flex;
+        margin-top: 2%;
+    }
+
+    .more {
+        display: inline-block;
+        padding: 10px 30px;
+        background-color: #144B9E;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .carousel {
+        margin-left: 160%;;
+        display: flex;
+        width: 260%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .footer{
+        font-size: 16px;
+        padding-left: 25px;
+    }
+}
