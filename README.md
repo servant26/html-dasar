@@ -10,3 +10,4 @@ Commit 6 : Membuat halaman pembelian produk lagi, namun bedanya disini menggunak
 Commit 7 : Lagi-lagi membuat halaman produk dengan carousel, hanya saja kali ini menggunakan DOM <br>
 Commit 8 : Membuat object/array lalu menyimpan data produk kedalam object/array tersebut <br>
 Commit 9 : Membuat API dan memasukkan data kedalam API tersebut, lalu menampilkan data dari API kedalam halaman web menggunakan async, fetch, konsep looping, dan sejenisnya <br>
+Commit 10 : Membuat beberapa halaman seperti Product API, Form Login, dan halaman Index menjadi lebih responsive agar nyaman dilihat disegala tampilan layar <br>
