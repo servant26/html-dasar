@@ -202,7 +202,35 @@ header label{
     display: none;
 }
 
-@media(max-width:991px){
+@media(max-width:480px){
+    .materi{
+        padding: 20px;
+    }
+
+    .judul{
+        font-size: 12px;
+    }
+
+    .profil img {
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width:481px) and (max-width:990px){
+    .materi{
+        padding: 20px;
+    }
+
+    .judul{
+        font-size: 12px;
+    }
+
+    .profil img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:991px){
     header{
         padding: 20px;
     }
