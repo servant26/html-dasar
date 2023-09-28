@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/gambar/icon.png" type="image/png">
+	<link href="../assets/bootstrap-5.3.2-dist\css\bootstrap.min.css" rel="stylesheet">
+	<script src="../assets/bootstrap-5.3.2-dist\js\bootstrap.min.js"></script>
+	<style type="text/css">
+		.container{
+			padding: 100px;
+			width: 60%;
+		}
+	</style>
+	<title>Login Bootstrap</title>
+</head>
+<body>
+	<div class="container bg-light position-absolute top-50 start-50 translate-middle">
+	<form>
+	  <h5 class="text-center">LOGIN</h5><br>
+	  <div class="mb-3">
+	    <label for="exampleInputEmail1" class="form-label">Username</label>
+	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan usename...">
+	  </div>
+	  <div class="mb-3">
+	    <label for="exampleInputPassword1" class="form-label">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukkan password...">
+	  </div>
+	  <div class="mb-3 form-check">
+	    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+	    <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
+	  </div>
+	  <label for="exampleInputSelect" class="form-label">Pilih role</label>
+		<select class="form-select" aria-label="Default select example">
+		  <option value="1">Mahasiswa</option>
+		  <option value="2">Staff</option>
+		  <option value="3">Dosen</option>
+		</select><br>
+	  <div class="d-grid gap-2">
+	  	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+		  Login
+		</button>
+	  </div><br>
+	  <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Belum punya akun? Daftar disini</a></p><br><br>
+	  <a class="btn btn-danger" href="../index.html" role="button">Kembali</a>
+	</form>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h1 class="text-danger modal-title fs-5" id="exampleModalLabel">Anda belum bisa masuk!!</h1>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body">
+	        Halaman login ini hanya sekedar tampilan UI saja, belum bisa masuk ke halaman dashboard, penerapan mengenai login akan kita terapkan di materi PHP nanti, tunggu perkembangan selanjutnya
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Saya mengerti</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<script>
+		const myModal = document.getElementById('myModal')
+		const myInput = document.getElementById('myInput')
+
+		myModal.addEventListener('shown.bs.modal', () => {
+		  myInput.focus()
+		})
+	</script>
+</body>
+</html>
