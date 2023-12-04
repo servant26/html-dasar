@@ -37,38 +37,10 @@
 		  <option value="3">Dosen</option>
 		</select><br>
 	  <div class="d-grid gap-2">
-	  	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-		  Login
-		</button>
+		<a class="btn btn-primary" href="dashboard.html" role="button">Login</a>
 	  </div><br>
-	  <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Belum punya akun? Daftar disini</a></p><br><br>
 	  <a class="btn btn-danger" href="../index.html" role="button">Kembali</a>
 	</form>
 	</div>
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	  <div class="modal-dialog modal-dialog-centered">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h1 class="text-danger modal-title fs-5" id="exampleModalLabel">Anda belum bisa masuk!!</h1>
-	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-	      </div>
-	      <div class="modal-body">
-	        Halaman login ini hanya sekedar tampilan UI saja, belum bisa masuk ke halaman dashboard, penerapan mengenai login akan kita terapkan di materi PHP nanti, tunggu perkembangan selanjutnya
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Saya mengerti</button>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<script>
-		const myModal = document.getElementById('myModal')
-		const myInput = document.getElementById('myInput')
-
-		myModal.addEventListener('shown.bs.modal', () => {
-		  myInput.focus()
-		})
-	</script>
 </body>
 </html>
